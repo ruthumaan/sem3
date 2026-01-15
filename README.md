@@ -18,6 +18,7 @@ git checkout fb1
 git stash apply
 git clone "url"
 git checkout fb1
+git remote set-url origin <url>
 git fetch origin
 git rebase origin/fb1
 git rebase --continue
